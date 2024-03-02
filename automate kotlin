@@ -1,0 +1,16 @@
+import android.os.Bundle
+import android.widget.Button
+import http://androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // Assuming you have a button with id "myButton" in your layout
+        val myButton: Button = findViewById(http://R.id.myButton)
+
+        // Simulating a click on the button programmatically
+        myButton.performClick()
+    }
+}
